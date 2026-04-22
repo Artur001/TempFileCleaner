@@ -1,0 +1,35 @@
+# ─── Build & PyInstaller ───
+build/
+dist/
+*.spec
+*.exe
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ─── Environments ───
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Windows ───
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ─── IDEs & Editors ───
+.vscode/
+.idea/
+*.swp
+*.swo
