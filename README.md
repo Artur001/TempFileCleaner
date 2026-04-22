@@ -14,9 +14,12 @@ A Windows utility that cleans temporary files, caches, and junk to free up disk 
 
 ## Usage
 
-### Quick Start (double-click)
-- **`run_cleaner.bat`** — Full cleanup (auto-requests admin)
-- **`run_dryrun.bat`** — Preview only (shows what *would* be cleaned)
+### Quick Start / Scripts (double-click)
+If you just want to run the tool without touching the command line, use these included batch scripts:
+
+- 🚀 **`run_cleaner.bat`**: The main launcher. It automatically requests Administrator privileges (essential for deep-cleaning Windows folders like Prefetch and Windows Temp) and launches the interactive menu.
+- 🔍 **`run_dryrun.bat`**: Scan-only mode. It simulates a clean, showing you exactly how much space you *would* free, but guarantees absolutely nothing is deleted.
+- 📦 **`build.bat`**: Packaging tool. Double-click this to automatically install `pyinstaller` and bundle the Python script into a single, standalone **`.exe`** file inside the `dist/` folder. This `.exe` can be shared with anyone and works without Python installed!
 
 ### Command Line
 ```powershell
